@@ -1,29 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
+    height: 10vh;
     background-color: black;
     color: aliceblue;
-     h1{
-        font-family:Snell Roundhand, cursive;
-     }
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-family: 'Snell Roundhand', cursive;
+        font-weight: normal;
+    }
 }
 
-.entrada{
-    align-items: center;
+.entrada {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .navegacao {
     display: flex;
-    flex-direction: row;
-    width: 150px;
-
     gap: 30px;
+    list-style: none;
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
 }
