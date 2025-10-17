@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: black;
+    color: aliceblue;
+     h1{
+        font-family:Snell Roundhand, cursive;
+     }
+}
+
+.entrada{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+
+    gap: 30px;
+}
