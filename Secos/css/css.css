@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz9mRlJYoviqT7OcCF8HAtDPh8vbNWchiT_UyF6AyOuPxZln090ESpKZQoUwtHWeLt4LL5prxI7lHXeMF7z3S0VVyWwdVIXnO6Z0Xtt5bhhA&s=10);
+    background-size: cover;
+}
+
 header {
     height: 10vh;
     background-color: black;

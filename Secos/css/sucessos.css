@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-family: 'Snell Roundhand', cursive;
+        font-weight: normal;
+    }
+}
+
+.entrada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    a {
+        color: aliceblue;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+}
